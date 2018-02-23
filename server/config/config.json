@@ -1,0 +1,20 @@
+{
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/get-tweets-test",
+    "JWT_SECRET": "uKh9m2wNKZ9dqtEg",
+    "FLICKR_KEY": "954150940fcca4d33790d5fff96b3d97",
+    "FLICKR_SECRET": "4ULAUcR5BeOW6E08OEfiDXnYMwcpSm81ljKK4Vz3fMHz6IQFeO"
+  },
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/get-tweets",
+    "JWT_SECRET": "uKh9m2wNKZ9dqtEg",
+    "FLICKR_KEY": "954150940fcca4d33790d5fff96b3d97",
+    "FLICKR_SECRET": "4ULAUcR5BeOW6E08OEfiDXnYMwcpSm81ljKK4Vz3fMHz6IQFeO"
+  },
+  "production": {
+    "MONGODB_URI": "",
+    "JWT_SECRET": "uKh9m2wNKZ9dqtEg"
+  }
+}
